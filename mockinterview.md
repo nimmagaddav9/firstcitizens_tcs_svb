@@ -393,3 +393,36 @@ Use winston, morgan, integrate with tools like DataDog.
 #### Node Clustering
 
 Spawn multiple processes to utilize all CPU cores.
+
+### Q: Can you create your own custom hooks in React?
+
+**A:**  
+Yes. Custom hooks are just JavaScript functions that start with `use` and let you reuse stateful logic across components. They help keep code DRY and organized. You can call other hooks like `useState` or `useEffect` inside them.
+
+---
+
+#### 🔍 Example: `useWindowWidth`
+
+```tsx
+import { useState, useEffect } from "react";
+
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return width;
+}
+```
+
+```tsx
+function Component() {
+  const width = useWindowWidth();
+  return <div>Window width: {width}</div>;
+}
+```

@@ -1,0 +1,85 @@
+🔹 React 16+
+Lifecycle methods (especially useEffect, useLayoutEffect, useMemo, useCallback)
+
+Hooks vs Class Components
+
+Controlled vs uncontrolled components
+
+Code-splitting, lazy loading
+
+Performance optimization (React.memo, virtual DOM diffing, etc.)
+
+Form handling, validation (maybe with Zod or Yup)
+
+Quick check: Can you explain how you’d build a reusable component library or a dynamic dashboard?
+
+🔹 Redux or MobX
+Pick the one you know best (likely Redux). Be ready to talk about:
+
+Store structure
+
+Middleware (e.g., redux-thunk or redux-saga)
+
+Best practices for large apps
+
+Redux Toolkit if you’ve used it
+
+MobX? Know observables, actions, computed.
+
+Quick check: Can you walk through a scenario where global state helped manage UI complexity?
+
+🔹 Node.js + REST APIs
+You won’t need deep backend skills, but prep:
+
+Express basics
+
+Middleware and routing
+
+How to handle authentication, authorization, and error handling
+
+Talk through how you’d connect a React app to a Node API with proper error/resilience handling
+
+🔹 TypeScript + ES6
+Interfaces vs types
+
+Generics (e.g., for reusable form handlers)
+
+Type narrowing, union types
+
+ES6 features: spread/rest, destructuring, promises/async-await
+
+🔹 CSS3, Preprocessors, Grid
+Grid vs Flexbox — when and why
+
+Nesting, mixins (for Sass/Less)
+
+Media queries and responsiveness
+
+Accessibility (WCAG), focus states, contrast ratios
+
+Quick check: Can you recreate a layout from Figma using CSS Grid and BEM naming in Sass?
+
+🔹 Testing (Jest)
+Unit vs integration vs E2E
+
+How to test components with hooks
+
+Mocking APIs or stores
+
+jest.fn(), beforeEach, describe blocks, render from RTL
+
+🔹 Lead Experience
+If they ask about leadership:
+
+Talk about mentoring, code reviews, leading standups
+
+How you manage tech debt vs velocity
+
+How you communicate design decisions to product/devs
+
+Final Sprint Tips:
+Friday/Saturday: Focus on hands-on – build a small component with Redux + TypeScript + styling.
+
+Sunday: Mock interview yourself or with a friend. Use behavioral Qs:
+“Tell me about a time you improved performance…”
+“How do you handle conflicting feedback from designers and devs?”
